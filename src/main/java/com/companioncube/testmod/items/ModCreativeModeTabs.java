@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TEST_ITEM);
                         output.accept(ModItems.TEST_ROD);
+                        output.accept(ModItems.MODEL_HOLDER);
                     }).build());
 
     public static final Supplier<CreativeModeTab> BLOCKS_TAB = CREATIVE_MODE_TAB.register("blocks_tab",

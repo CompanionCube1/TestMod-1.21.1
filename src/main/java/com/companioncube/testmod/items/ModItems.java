@@ -15,6 +15,9 @@ public class ModItems {
     public static final DeferredItem<Item> TEST_ROD = ITEMS.register("test_rod",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> MODEL_HOLDER = ITEMS.register("model_holder",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
