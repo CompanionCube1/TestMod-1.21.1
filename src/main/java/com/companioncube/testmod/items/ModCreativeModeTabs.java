@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.testmod.blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.TEST_BLOCK);
+                        output.accept(ModBlocks.TEST_ORE);
                     }).build());
 
     public static void register(IEventBus eventBus){
